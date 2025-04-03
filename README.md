@@ -3,7 +3,7 @@
 `READ CAREFULLY`
 
 ## Instructions
-**The test consists in the backend .NET 8.0.** (Front End not working :()
+**The test consists in the backend .NET 8.0.** (Front End not working :(, that's why it's not delivered )
 
 - Select the docker-compose project to generate images in docker
 - In Program.cs, line 90, uncomment the app.ApplyMigrations() to generate the tables based on Migrations
