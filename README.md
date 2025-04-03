@@ -10,7 +10,7 @@
 - Check if tables Carts, Products, ProductsInCart, ProductsInSales, Ratings, Sales, Users and __EFMigrationsHistory where created successfully
 - The appsettings file contains the connection string to the postegree database
 - "DefaultConnection": "Host=ambev.developerevaluation.database;Port=5432;Database=developer_evalutation;Database=developer_evalutation;Username=developer;Password=ev@luAt10n;TrustServerCertificate=True" 
-- However, if no connection with connString above, uncomment the line above, and start the project Ambev.DeveloperEvaluation.Api in https mode
+- However, if no connection with connString above, uncomment the line above, comment the line bellow --> comment line 90, uncomment the app.ApplyMigrations() in Program.cs, and start the project Ambev.DeveloperEvaluation.Api in https mode
 - Both startups projects retrives the swagger document, with all endpoints for the api
 
 ### Business Rules implemented
